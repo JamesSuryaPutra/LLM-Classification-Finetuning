@@ -16,7 +16,7 @@ This competition challenges you to predict which responses users will prefer in 
 
 # How Kaggle's Competition Work
 ## 1. Join the Competition
-Read about the challenge description, accept the Competition Rules and gain access to the competition dataset.
+Read about the challenge description (see Code Requirements for more details), accept the Competition Rules and gain access to the competition dataset.
 ## 2. Get to Work
 Create a Kaggle Notebook, import the competition data, build models, and generate a prediction file.
 ## 3. Make a Submission
@@ -25,3 +25,15 @@ Submit your notebook to the competition!
 See how your model ranks against other Kagglers on our leaderboard.
 ## 5. Improve Your Score
 Check out the discussion forum to find lots of tutorials and insights from other competitors.
+
+# Evaluation
+Submissions are evaluated on the log loss between the predicted probabilities and the ground truth values (with "eps=auto").
+
+# Submission File
+For each id in the test set, you must predict the probability for each target class. The file should contain a header and have the following format:
+
+id,winner_model_a,winner_model_b,winner_tie
+ 136060,0.33,0,33,0.33
+ 211333,0.33,0,33,0.33
+ 1233961,0.33,0,33,0.33
+ etc
