@@ -33,4 +33,5 @@ Submissions are evaluated on the log loss between the predicted probabilities an
 
 # Submission File
 For each id in the test set, you must predict the probability for each target class. The file should contain a header and have the following format:
+
 <img width="443" height="133" alt="submission" src="https://github.com/user-attachments/assets/df425785-d53f-43a8-88e6-377218b20a1f" />
