@@ -1,4 +1,6 @@
 # LLM Classification Finetuning
+<img width="560" height="280" alt="image" src="https://github.com/user-attachments/assets/bff4826f-5d66-450c-98fa-0b8a4dad224d" />
+
 
 # Overview
 This competition challenges you to predict which responses users will prefer in a head-to-head battle between chatbots powered by large language models (LLMs). You'll be given a dataset of conversations from the Chatbot Arena, where different LLMs generate answers to user prompts. By developing a winning machine learning model, you'll help improve how chatbots interact with humans and ensure they better align with human preferences.
